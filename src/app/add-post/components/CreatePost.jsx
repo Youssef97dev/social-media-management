@@ -11,6 +11,7 @@ import { AiFillInstagram, AiFillTikTok } from "react-icons/ai";
 import { SiYoutubemusic } from "react-icons/si";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import Image from "next/image";
+import Variation from "./Variation";
 
 const profiles = [
   {
@@ -163,6 +164,8 @@ const CreatePost = () => {
           </div>
         ))}
       </div>
+      <br />
+      <Variation />
     </div>
   );
 };
